@@ -12,12 +12,11 @@ public class ArrayPractice {
 		System.out.println(favoriteFoods[3]);
 		System.out.println(favoriteFoods[4]);
 		
-		System.out.println("My favorite foods are " + Arrays.toString(favoriteFoods));
+//		System.out.println("My favorite foods are " + Arrays.toString(favoriteFoods));
 		
 		System.out.println("My favorite breakfast is " + favoriteFoods[4] + "!");
 		favoriteFoods[4] = "protein shake";
 		System.out.println("When I'm running late in the morning I'll substitute a " + favoriteFoods[4] + " for eggs!");
 
 	}
-
 }
